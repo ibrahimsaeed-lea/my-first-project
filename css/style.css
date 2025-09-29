@@ -188,7 +188,15 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
   } 
+  .services .srv .text {
+    padding-left: 0;
+    text-align: center;
+  }
+  .services-content {
+    margin: 0 auto;
+  }
 }
 
 .services .srv i {
@@ -210,7 +218,15 @@
   line-height: 1.8;
   margin-top: 20px;
 }
-
+@media (max-width: 768px ) {
+   .services .srv {
+    display: flex;
+    flex-direction: column;
+  } 
+  .services .srv .text {
+    padding-left: 0;
+  }
+}
 
 .service-image {
   position: relative;
